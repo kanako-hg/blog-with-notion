@@ -6,7 +6,7 @@ type Props = {
   description: string;
   date: string;
   tags: string[];
-  slug: string;
+  slug: any;
 };
 
 const SinglePost = (props: Props) => {
